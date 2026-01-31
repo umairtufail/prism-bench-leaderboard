@@ -11,4 +11,4 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 num_scenarios = 10
 test_level = "all"
 # Optional: domains = ["Social Dynamics (Hierarchy/Communication/Face)"]
-# Test assessment with updated Docker images and fixed format
+# Final test with messenger fix - should capture actual responses now
