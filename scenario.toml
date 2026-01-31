@@ -1,5 +1,5 @@
 [green_agent]
-agentbeats_id = ""
+agentbeats_id = "019bc5a4-62ec-7710-b513-967eb9397121"
 env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
 
 [[participants]]
@@ -13,4 +13,7 @@ name = "role_2_name"
 env = {}
 
 [config]
+num_scenarios = 10
+test_level = "all"
+# Optional: domains = ["Social Dynamics (Hierarchy/Communication/Face)"]
 # Add your assessment config here
