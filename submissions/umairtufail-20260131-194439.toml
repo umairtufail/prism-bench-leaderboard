@@ -1,0 +1,13 @@
+[green_agent]
+agentbeats_id = "019bc5a4-62ec-7710-b513-967eb9397121"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+
+[[participants]]
+agentbeats_id = "019c1585-5b8e-7ed1-be2d-ca90f5d9954e"  # TODO: Replace with your baseline agent ID from AgentBeats
+name = "evaluee"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+
+[config]
+num_scenarios = 10
+test_level = "all"
+# Optional: domains = ["Social Dynamics (Hierarchy/Communication/Face)"]

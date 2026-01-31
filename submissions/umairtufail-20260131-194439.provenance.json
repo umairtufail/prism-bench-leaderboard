@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "registry-1.docker.io/umairtufail/prism-bench@sha256:e8d54ae4f8a12bd6d4e9bb4c6c93755e2058fdac3ee836636be636b147aba851",
+    "evaluee": "registry-1.docker.io/umairtufail/prism-baseline@sha256:87ffd955f890d86c1781751e51faec8491ede9ecf445c157f48e0a67638c45fe",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-31T19:44:39Z",
+  "github_actions": {
+    "run_url": "https://github.com/umairtufail/prism-bench-leaderboard/actions/runs/21549849426",
+    "run_logs_url": "https://api.github.com/repos/umairtufail/prism-bench-leaderboard/actions/runs/21549849426/logs",
+    "ref": "refs/heads/run-assessment-20260131-204014",
+    "sha": "d3f311586a5ef23d16bdae5230b7d1e1f736ce9b",
+    "repository_url": "https://github.com/umairtufail/prism-bench-leaderboard",
+    "workflow_ref": "umairtufail/prism-bench-leaderboard/.github/workflows/run-scenario.yml@refs/heads/run-assessment-20260131-204014",
+    "workflow_sha": "d3f311586a5ef23d16bdae5230b7d1e1f736ce9b"
+  }
+}
