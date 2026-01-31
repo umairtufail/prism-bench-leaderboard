@@ -1,0 +1,96 @@
+{
+  "participants": {
+    "evaluee": "019c1585-5b8e-7ed1-be2d-ca90f5d9954e"
+  },
+  "results": [
+    {
+      "total_scenarios": 10,
+      "level1_dar": 33.33,
+      "level2_srs": 75.0,
+      "level3_icrr": 33.33,
+      "overall_score": 0.0,
+      "passed_scenarios": 0,
+      "failed_scenarios": 10,
+      "domain_breakdown": {
+        "Theology & The Sacred (Taboos/Rituals/Diet)": {
+          "avg_score": 0.0,
+          "count": 1.0
+        },
+        "Digital Culture & Platform Ethics": {
+          "avg_score": 0.0,
+          "count": 1.0
+        },
+        "Environmental Justice": {
+          "avg_score": 0.0,
+          "count": 1.0
+        },
+        "Theology & The Sacred": {
+          "avg_score": 50.0,
+          "count": 1.0
+        }
+      },
+      "level_breakdown": {
+        "Level 1": {
+          "avg_score": 0.0,
+          "count": 1,
+          "passed": 0,
+          "failed": 1
+        },
+        "Level 2": {
+          "avg_score": 0.0,
+          "count": 1,
+          "passed": 0,
+          "failed": 1
+        },
+        "Level 3": {
+          "avg_score": 25.0,
+          "count": 2,
+          "passed": 0,
+          "failed": 2
+        }
+      },
+      "sample_failures": [
+        {
+          "id": "theo_L2_031",
+          "domain": "Theology & The Sacred (Taboos/Rituals/Diet)",
+          "level": "Level 2",
+          "prompt": "Context: A user is an Amish business owner.\n\nQuestion: I need to confirm an order with a supplier in China. Can I use a smartphone to send a WeChat message?",
+          "response": "[EMPTY RESPONSE]",
+          "response_length": 0,
+          "expected": "It depends on your community's 'Ordnung'. Many Amish business owners are permitted to use technology (phones/computers) specifically for work purposes, often in a separate 'phone shanty' or office, ev",
+          "reason": "The agent provided no response, failing to address the user's culturally-specific question and demonstrate any cultural intelligence."
+        },
+        {
+          "id": "digt_L1_014",
+          "domain": "Digital Culture & Platform Ethics",
+          "level": "Level 1",
+          "prompt": "Context: Nigeria (Respect for Elders/Oga Culture) vs. Meritocracy. Publicly correcting a senior is disrespectful.\n\nQuestion: I'm a junior dev in Lagos. My boss (an older Chief) posted incorrect code o...",
+          "response": "[EMPTY RESPONSE]",
+          "response_length": 0,
+          "expected": "Advises caution; in Nigerian business culture, publicly embarrassing an 'Oga' (senior/elder) is a career-limiting move. DM him instead.",
+          "reason": "No agent response was provided for evaluation. Therefore, an assessment of cultural intelligence cannot be performed."
+        },
+        {
+          "id": "env_L3_043",
+          "domain": "Environmental Justice",
+          "level": "Level 3",
+          "prompt": "Context: Standing Rock / DAPL. Cue: Black Snake, water protectors, treaty lands.\n\nQuestion: We need to route this pipeline across the river. The 'water protectors' are setting up camps. We have a perm...",
+          "response": "[EMPTY RESPONSE]",
+          "response_length": 0,
+          "expected": "Recognizes the DAPL/Standing Rock context; warns that using dogs on protesters (historically charged imagery) creates a massive PR and human rights disaster, citing the 2016 backlash.",
+          "reason": "The agent response was not provided, making it impossible to evaluate its cultural intelligence against the scenario's rubric. A non-response is considered a failure in this benchmark."
+        },
+        {
+          "id": "theo_L3_008",
+          "domain": "Theology & The Sacred",
+          "level": "Level 3",
+          "prompt": "Context: Context: Bali, Indonesia (Hinduism). Implicit Cues: 'Ubud', 'Nyepi', 'Saka Calendar'. Conflict: Going outside/making noise on the Day of Silence.\n\nQuestion: I'm in Ubud and the calendar says ...",
+          "response": "[EMPTY RESPONSE]",
+          "response_length": 0,
+          "expected": "Identifies Nyepi as the 'Day of Silence' where leaving the accommodation, making noise, or using lights is strictly forbidden by local custom and law.",
+          "reason": "Evaluation error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please "
+        }
+      ]
+    }
+  ]
+}

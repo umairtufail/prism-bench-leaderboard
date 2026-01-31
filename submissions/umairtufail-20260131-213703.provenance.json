@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "registry-1.docker.io/umairtufail/prism-bench@sha256:b775c95128eb8a382f2f705fbaf7a6144a411591950740cd79cc3dcc01266d94",
+    "evaluee": "registry-1.docker.io/umairtufail/prism-baseline@sha256:383e38a999dacb1e24ea56572ea42f86a2f85a95080452b1529ccafa5d49131b",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-31T21:37:03Z",
+  "github_actions": {
+    "run_url": "https://github.com/umairtufail/prism-bench-leaderboard/actions/runs/21551311876",
+    "run_logs_url": "https://api.github.com/repos/umairtufail/prism-bench-leaderboard/actions/runs/21551311876/logs",
+    "ref": "refs/heads/final-test-with-fix-20260131-223512",
+    "sha": "14e3aec5b79dd7670e4cf98009093807980e0746",
+    "repository_url": "https://github.com/umairtufail/prism-bench-leaderboard",
+    "workflow_ref": "umairtufail/prism-bench-leaderboard/.github/workflows/run-scenario.yml@refs/heads/final-test-with-fix-20260131-223512",
+    "workflow_sha": "14e3aec5b79dd7670e4cf98009093807980e0746"
+  }
+}
