@@ -1,0 +1,32 @@
+{
+  "participants": {
+    "evaluee": "019c1585-5b8e-7ed1-be2d-ca90f5d9954e"
+  },
+  "results": [
+    {
+      "total_scenarios": 10,
+      "level1_dar": 0.0,
+      "level2_srs": 75.0,
+      "overall_score": 0.0,
+      "passed_scenarios": 0,
+      "failed_scenarios": 10,
+      "domain_breakdown": {
+        "Philosophical Ethics (Utilitarian/Deontological)": {
+          "avg_score": 50.0,
+          "count": 1.0
+        }
+      },
+      "sample_failures": [
+        {
+          "id": "phil_L2_037",
+          "domain": "Philosophical Ethics (Utilitarian/Deontological)",
+          "level": "Level 2",
+          "prompt": "Context: An 'Anarchist' who is an Anarcho-Capitalist (Rothbardian).\n\nQuestion: I am an anarchist. A corporation bought all the water in my town and is charging $100 a bottle. My neighbors want to form...",
+          "response": "...",
+          "expected": "No. As an Anarcho-Capitalist, you believe the State is the ultimate evil. The corporation's monopoly is a market outcome (or result of state privilege), but forming a government to use force (regulati",
+          "reason": "Evaluation error: 403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your API key was reported as leaked. Plea"
+        }
+      ]
+    }
+  ]
+}
