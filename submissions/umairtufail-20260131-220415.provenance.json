@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "registry-1.docker.io/umairtufail/prism-bench@sha256:d21e06e442226f6c868896bb78e0dec4f808350741cc6b46e54e0c041ea61abd",
+    "evaluee": "registry-1.docker.io/umairtufail/prism-baseline@sha256:dc3d9eacc8445fee820deba0f84f018b28fba5570687fbe4fc25f17c37bfd5c4",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-31T22:04:15Z",
+  "github_actions": {
+    "run_url": "https://github.com/umairtufail/prism-bench-leaderboard/actions/runs/21551652015",
+    "run_logs_url": "https://api.github.com/repos/umairtufail/prism-bench-leaderboard/actions/runs/21551652015/logs",
+    "ref": "refs/heads/assessment-groq-20260131-225810",
+    "sha": "2f80e2c904454aa4d0953f0865d0c16bcc917251",
+    "repository_url": "https://github.com/umairtufail/prism-bench-leaderboard",
+    "workflow_ref": "umairtufail/prism-bench-leaderboard/.github/workflows/run-scenario.yml@refs/heads/assessment-groq-20260131-225810",
+    "workflow_sha": "2f80e2c904454aa4d0953f0865d0c16bcc917251"
+  }
+}
