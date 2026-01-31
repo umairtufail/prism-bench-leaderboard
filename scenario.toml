@@ -8,7 +8,7 @@ name = "evaluee"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
-num_scenarios = 10
+num_scenarios = 5
 test_level = "all"
 # Optional: domains = ["Social Dynamics (Hierarchy/Communication/Face)"]
 # Test assessment with updated Docker images and fixed format
