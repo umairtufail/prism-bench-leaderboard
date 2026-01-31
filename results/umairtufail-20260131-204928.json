@@ -1,0 +1,19 @@
+{
+  "participants": {
+    "evaluee": "019c1585-5b8e-7ed1-be2d-ca90f5d9954e"
+  },
+  "results": [
+    {
+      "total_scenarios": 10,
+      "level1_dar": 0.0,
+      "level2_srs": 100.0,
+      "level3_icrr": 100.0,
+      "overall_score": 0.0,
+      "passed_scenarios": 0,
+      "failed_scenarios": 10,
+      "domain_breakdown": {},
+      "level_breakdown": {},
+      "sample_failures": []
+    }
+  ]
+}
